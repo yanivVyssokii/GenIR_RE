@@ -22,7 +22,13 @@ To set up the project environment:
    ```bash
    conda activate transformer-env
 
-## 🧪 Experiment Description
+4. **Running the notebook**
+   In order to run JupyterLab with resources such as GPU, you can run:
+   
+   ```bash
+   ./jupyter-lab.sh
+
+## Experiment Description
 
 This project explores how individual MLP neurons in the decoder of a Generative Information Retrieval (GenIR) model respond to semantically meaningful tokens in user queries. The key idea is to measure how much each neuron's activation changes when a specific token in a query is ablated (i.e., replaced with the UNK token).
 
